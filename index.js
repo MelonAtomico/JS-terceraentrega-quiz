@@ -78,8 +78,8 @@ function style(id) {
 }
 
 function readText(ruta_local) {
-  var texto = null;
-  var xmlhttp = new XMLHttpRequest();
+  let texto = null;
+  let xmlhttp = new XMLHttpRequest();
   xmlhttp.open("GET", ruta_local, false);
   xmlhttp.send();
   if (xmlhttp.status == 200) {
