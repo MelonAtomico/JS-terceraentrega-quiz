@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s;
+    font-family: Alegreya Sans SC;
+  }
+
+body{ background-color: rgb(91, 89, 89);
+    text-align: center;
+    text-size-adjust: 120%;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.container{
+    width: 95vw;
+    height: 95vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.encabezado{
+    background-color: white;
+    min-width: 300px;
+    max-height: 600px;
+    width: 70%;
+}
+
+.categoria{
+    opacity: 0.3;
+    text-align: left;
+}
+
+.pregunta{
+    padding: 10px;
+}
+
+.imagen{
+    object-fit: cover;
+    padding: 10px;
+    max-width: 262px;
+    max-height: 229px;
+}
+
+.btn{
+    background-color: white;
+    width: 30%;
+    padding: 10px;
+    margin: 5px;
+}
+
+.btn:hover{
+    background-color: blue;
+    cursor: pointer;
+    width: 32%;
+}

@@ -1,0 +1,92 @@
+[
+    {
+        "categoria" :"gaming",
+        "pregunta" :"quien es el personaje de la imagen?",
+        "respuesta" :"Link",
+        "incorrecta1" :"Ganon",
+        "incorrecta2" :"Zelda",
+        "incorrecta3" :"Superman",
+        "imagen" :"https://cdn.discordapp.com/attachments/703325259096391683/1112527251364384778/image.png",
+        "objectFit" : "cover"
+    },
+    {
+        "categoria" :"gaming",
+        "pregunta" :"quien es el personaje de la imagen?",
+        "respuesta" :"zelda",
+        "incorrecta1" :"Ganon",
+        "incorrecta2" :"Link",
+        "incorrecta3" :"Superman",
+        "imagen" :"https://cdn.discordapp.com/attachments/703325259096391683/1112535487186473010/image.png",
+        "objectFit" : "cover"
+    },
+    {
+        "categoria" :"gaming",
+        "pregunta" :"quien es el personaje de la imagen?",
+        "respuesta" :"Ganon",
+        "incorrecta1" :"Link",
+        "incorrecta2" :"Zelda",
+        "incorrecta3" :"Superman",
+        "imagen" :"https://cdn.discordapp.com/attachments/703325259096391683/1112538688220573706/Ganondorf_The_Legend_of_Zelda_Tears_of_The_Kingdom_Perfil.webp",
+        "objectFit" : "cover"
+    },
+    {
+        "categoria" : "gaming",
+        "pregunta" : "a que lugar pertenece el castillo de la imagen?",
+        "respuesta" : "hyrule",
+        "incorrecta1" : "springfield",
+        "incorrecta2" : "alemania",
+        "incorrecta3" : "portugal",
+        "imagen" : "https://cdn.discordapp.com/attachments/703325259096391683/1115418925618970775/DD-Hyrule-Castle-Guided-Tour-2.jpg",
+        "objectFit" : "cover"
+    },
+    {
+        "categoria" : "gaming",
+        "pregunta" : "a que juego pertenece la imagen?",
+        "respuesta" : "metro exodus",
+        "incorrecta1" : "Zelda",
+        "incorrecta2" : "call of duty",
+        "incorrecta3" : "medalla de honor",
+        "imagen" : "https://cdn.discordapp.com/attachments/703325259096391683/1115418864172408893/metro-exodus-2018610191654_2-620x330.webp",
+        "objectFit" : "cover"
+    },
+    {
+        "categoria" : "anime",
+        "pregunta" : "a que anime pertenece el personaje de la imagen?",
+        "respuesta" : "one piece",
+        "incorrecta1" : "monkey d. luffy",
+        "incorrecta2" : "kimetsu no yaiba",
+        "incorrecta3" : "dr. stone",
+        "imagen" : "https://cdn.discordapp.com/attachments/703325259096391683/1115419059933159456/7b87ed97855ed47313fbdd94b262f239.jpg",
+        "objectFit" : "cover"
+    },
+    {
+        "categoria" : "anime",
+        "pregunta" : "cual es el nombre de heroe de este personaje?",
+        "respuesta" : "all might",
+        "incorrecta1" : "batman",
+        "incorrecta2" : "flash",
+        "incorrecta3" : "endeavor",
+        "imagen" : "https://cdn.discordapp.com/attachments/703325259096391683/1115419742988156968/Tumblr_72a79f0ca193d8962b637abdf1ddf685_448facec_640_29.webp",
+        "objectFit" : "cover"
+    },
+    {
+        "categoria" : "anime",
+        "pregunta" : "cual es el nombre de pila de este heroe?",
+        "respuesta" : "yagi toshinori",
+        "incorrecta1" : "adam sandler",
+        "incorrecta2" : "shoto aizawa",
+        "incorrecta3" : "izuku midoriya",
+        "imagen" : "https://cdn.discordapp.com/attachments/703325259096391683/1115419778132213780/All_Might_One27s_Justice_Design.webp",
+        "objectFit" : "cover"
+    },
+    {
+        "categoria" : "anime",
+        "pregunta" : "cual es el poder que usa este personaje?",
+        "respuesta" : "one for all",
+        "incorrecta1" : "fuego eterno",
+        "incorrecta2" : "botania",
+        "incorrecta3" : "espectro patronum",
+        "imagen" : "https://cdn.discordapp.com/attachments/703325259096391683/1115420387312934913/izuku_midoriya.jpg_1073921001.webp",
+        "objectFit" : "cover"
+    }
+]
