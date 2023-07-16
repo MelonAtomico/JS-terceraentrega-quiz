@@ -72,3 +72,4 @@ function nextQuestion(){
     }
   }, 2000)
 }
+
