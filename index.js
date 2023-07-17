@@ -1,6 +1,8 @@
 let shuffledQuestions;
 let currentIndex;
 let correctAnswers = 0;
+let name;
+
 
 function getQuestions(route) {
     return axios({
@@ -10,6 +12,19 @@ function getQuestions(route) {
         return response.data;
     });
 }
+
+swal({
+    content: {
+      element: "input",
+      attributes: {
+        placeholder: "coloca tu nombre",
+        type: "text",
+      },
+    },
+  }).then(data=>{
+    console.log("data", data);
+    name=data;
+  })
 
 getQuestions("base-preguntas.json")
     .then(questions => {
@@ -66,7 +81,7 @@ function nextQuestion(){
         pickQuestion(currentIndex + 1);
     } else {
         swal({
-            title: "FELICITACIONES",
+            title: `FELICITACIONES ${name}`,
             text: `Terminaste el Cuestionario contestaste ${correctAnswers}/${shuffledQuestions.length}`,
             icon: "success",
             button: "Finalizar",
