@@ -43,6 +43,7 @@ function pickQuestion(n) {
 
 function buttonClick() {
     const btns = document.querySelectorAll(".btn");
+    const question = shuffledQuestions[currentIndex];
     if(question.respuesta === this.innerHTML){
         correctAnswers++;
         btns.forEach(btn => {
@@ -66,7 +67,7 @@ function nextQuestion(){
     } else {
         swal({
             title: "FELICITACIONES",
-            text: `Terminaste el Cuestionario contestaste ${correctAnswers}/${shuffledQuestions.length -1}`,
+            text: `Terminaste el Cuestionario contestaste ${correctAnswers}/${shuffledQuestions.length}`,
             icon: "success",
             button: "Finalizar",
         });
