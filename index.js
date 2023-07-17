@@ -1,5 +1,6 @@
 let shuffledQuestions;
 let currentIndex;
+let correctAnswers = 0;
 
 function getQuestions(route) {
     return axios({
@@ -26,14 +27,14 @@ function shuffleArray(array) {
 
 function pickQuestion(n) {
     currentIndex = n;
-    let question = shuffledQuestions[n];
+    const question = shuffledQuestions[n];
     selectElementById("categoria").innerHTML = question.categoria;
     selectElementById("pregunta").innerHTML = question.pregunta;
     selectElementById("imagen").setAttribute("src" ,question.imagen);
     selectElementById("imagen").style.objectFit = question.objectFit;
     const respuestas = shuffleArray([question.respuesta, question.incorrecta1, question.incorrecta2, question.incorrecta3]);
     for (let i = 1; i < 5; i++){
-        let button = selectElementById("btn"+i);
+        const button = selectElementById("btn"+i);
         button.innerHTML = respuestas[i - 1];
         button.addEventListener('click', buttonClick);
         button.style.backgroundColor = 'white';
@@ -41,9 +42,9 @@ function pickQuestion(n) {
 }
 
 function buttonClick() {
-    let question = shuffledQuestions[currentIndex];
     const btns = document.querySelectorAll(".btn");
     if(question.respuesta === this.innerHTML){
+        correctAnswers++;
         btns.forEach(btn => {
             btn.style.backgroundColor = btn.innerHTML === question.respuesta ? "green" : "red";
         });
@@ -65,7 +66,7 @@ function nextQuestion(){
     } else {
         swal({
             title: "FELICITACIONES",
-            text: "Terminaste el Cuestionario",
+            text: `Terminaste el Cuestionario contestaste ${correctAnswers}/${shuffledQuestions.length -1}`,
             icon: "success",
             button: "Finalizar",
         });
